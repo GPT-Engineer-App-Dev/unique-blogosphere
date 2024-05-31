@@ -1,8 +1,9 @@
 import { useState } from "react";
-import { Container, Heading, VStack, Input, Textarea, Button, Link } from "@chakra-ui/react";
+import { Container, Heading, VStack, Input, Textarea, Button, Link, useColorMode } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
 
 const AddPost = () => {
+  const { colorMode, toggleColorMode } = useColorMode();
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
   const navigate = useNavigate();
