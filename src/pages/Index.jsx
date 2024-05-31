@@ -10,6 +10,7 @@ const Index = () => {
         </Box>
         <Text fontSize="lg">Dive into my thoughts, experiences, and stories.</Text>
         <Link href="/about" color="teal.500" fontSize="lg">Learn more about me</Link>
+        <Link href="/add-post" color="teal.500" fontSize="lg">Add a new post</Link>
       </VStack>
     </Container>
   );
